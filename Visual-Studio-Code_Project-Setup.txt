@@ -1,0 +1,8 @@
+1) Open C/C++ Configurations 
+
+2) Specify compiler path. For example:
+D:\Programas\ESP32\ESP-IDF Tools\.espressif\tools\xtensa-esp32-elf\esp-2020r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
+
+3) Specify the components folder from esp-idf (IDF_PATH) to the path includes window
+${env:IDF_PATH}/components/**
+The double astheristics indicates a recursive inclusion.
